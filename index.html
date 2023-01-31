@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class=container>
+        <div class="top-nav">
+            <h1>Network</h1>
+        </div>
+        <div class="header">
+                <h2>Your Feed</h2>
+        </div>
+        <div class="main">
+            <div class="leftcontainer">
+                <img src="rae-rae.jpg" alt="Rae" id="rae">
+                <a href="#"><img src="avatar.jpg" alt="avatar" id="avatar"></a>
+                <div class="name"></div> 
+                <h2>Rae J. Woodruff</h2>
+            </div>
+            <div class="rightcontainer">
+                <div class="likes">
+                    <div class="line1">
+                        <h2>Neil M.</h2>
+                        <P class="like"><span id="Neil">0</span> like(s)</P>
+                        <button onclick="add()">  Like(s)</button>
+                    </div>
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+                <div class="likes">
+                    <div class="line1">
+                        <h2>Nichole K.</h2>
+                        <p class="like"><span id="Nikki">0</span>  like(s)</p>
+                        <button onclick="plus('Nikki')"> Likes</button>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a> check it out.</p>
+                </div>
+                <div class="likes">
+                    <div class="line1">
+                        <h2>Jim R.</h2>
+                        <p class="like"><span id="Jim">0</span> Like(s)</p>
+                        <button onclick="more()">  Likes</button>
+                    </div>
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else liking it?</p>
+                </div>
+            </div>
+        </div>
+        <div class="navbottom"></div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
